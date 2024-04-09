@@ -1,0 +1,11 @@
+﻿global using LiveChartsCore;
+global using LiveChartsCore.SkiaSharpView.Drawing.Geometries;
+global using LiveChartsCore.SkiaSharpView.Painting;
+global using LiveChartsCore.SkiaSharpView;
+global using SkiaSharp;
+global using Modules.GeoMapModule.ViewModels;
+global using Modules.GeoMapModule.Views;
+global using Prism.Ioc;
+global using Prism.Modularity;
+global using Prism.Mvvm;
+global using Prism.Regions;

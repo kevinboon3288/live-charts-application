@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveChartsApplication", "LiveChartsApplication.csproj", "{2726B14D-8B2D-4ABC-90B5-1F37D9434081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{61556986-3B32-480A-B407-1E91F27DE508}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoMapModule", "Modules\GeoMapModule\GeoMapModule.csproj", "{255E0828-A475-4B6B-9B74-460EEA0A7E0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainModule", "Modules\MainModule\MainModule.csproj", "{53BC9BBC-9F1D-4EA4-A1A4-A75013022EA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{9F4E97B2-3330-443F-AF54-90CF2E946172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource", "Resources\Resource\Resource.csproj", "{DDE5221A-1887-47B0-9E79-BF447C23E337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2726B14D-8B2D-4ABC-90B5-1F37D9434081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2726B14D-8B2D-4ABC-90B5-1F37D9434081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2726B14D-8B2D-4ABC-90B5-1F37D9434081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2726B14D-8B2D-4ABC-90B5-1F37D9434081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255E0828-A475-4B6B-9B74-460EEA0A7E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255E0828-A475-4B6B-9B74-460EEA0A7E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255E0828-A475-4B6B-9B74-460EEA0A7E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255E0828-A475-4B6B-9B74-460EEA0A7E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BC9BBC-9F1D-4EA4-A1A4-A75013022EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BC9BBC-9F1D-4EA4-A1A4-A75013022EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BC9BBC-9F1D-4EA4-A1A4-A75013022EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BC9BBC-9F1D-4EA4-A1A4-A75013022EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE5221A-1887-47B0-9E79-BF447C23E337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE5221A-1887-47B0-9E79-BF447C23E337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE5221A-1887-47B0-9E79-BF447C23E337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE5221A-1887-47B0-9E79-BF447C23E337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{255E0828-A475-4B6B-9B74-460EEA0A7E0D} = {61556986-3B32-480A-B407-1E91F27DE508}
+		{53BC9BBC-9F1D-4EA4-A1A4-A75013022EA9} = {61556986-3B32-480A-B407-1E91F27DE508}
+		{DDE5221A-1887-47B0-9E79-BF447C23E337} = {9F4E97B2-3330-443F-AF54-90CF2E946172}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57B67DA9-1E10-444D-9D5B-C4B7421AA498}
+	EndGlobalSection
+EndGlobal
