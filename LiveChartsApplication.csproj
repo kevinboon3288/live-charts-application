@@ -10,12 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Common\**" />
     <Compile Remove="Modules\**" />
     <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Common\**" />
     <EmbeddedResource Remove="Modules\**" />
     <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Common\**" />
     <None Remove="Modules\**" />
     <None Remove="Resources\**" />
+    <Page Remove="Common\**" />
     <Page Remove="Modules\**" />
     <Page Remove="Resources\**" />
   </ItemGroup>

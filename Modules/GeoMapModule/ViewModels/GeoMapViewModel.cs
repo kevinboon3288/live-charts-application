@@ -1,5 +1,4 @@
-﻿using Prism.Commands;
-
+﻿
 namespace Modules.GeoMapModule.ViewModels;
 
 public class GeoMapViewModel : BindableBase, INavigationAware
