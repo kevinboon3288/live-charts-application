@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\Tools\Tools.csproj" />
     <ProjectReference Include="..\..\Resources\Resource\Resource.csproj" />
   </ItemGroup>
 </Project>

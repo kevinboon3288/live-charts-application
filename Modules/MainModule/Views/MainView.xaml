@@ -22,9 +22,20 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <ListBox Grid.Column="0" Width="200" Margin="5">
-
+        <ListBox ItemsSource="{Binding Examples}" Grid.Column="0" Width="200" Margin="10">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel CanVerticallyScroll="True" CanHorizontallyScroll="False"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <TextBlock Text="{Binding}"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
         </ListBox>
-        <ContentControl Grid.Column="1" Margin="5" prism:RegionManager.RegionName="ModuleContentRegion"/>
+        <ContentControl Grid.Column="1" Margin="10" prism:RegionManager.RegionName="ModuleContentRegion"/>
     </Grid>
 </UserControl>

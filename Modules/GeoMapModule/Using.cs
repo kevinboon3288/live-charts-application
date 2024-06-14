@@ -2,10 +2,14 @@
 global using LiveChartsCore.SkiaSharpView.Drawing.Geometries;
 global using LiveChartsCore.SkiaSharpView.Painting;
 global using LiveChartsCore.SkiaSharpView;
-global using SkiaSharp;
 global using Modules.GeoMapModule.ViewModels;
 global using Modules.GeoMapModule.Views;
+global using Prism.Events;
 global using Prism.Ioc;
 global using Prism.Modularity;
 global using Prism.Mvvm;
 global using Prism.Regions;
+global using Prism.Commands;
+global using SkiaSharp;
+global using Tools.Events;
+global using ToolModuleManager = Tools.Utils.ModuleManager;
